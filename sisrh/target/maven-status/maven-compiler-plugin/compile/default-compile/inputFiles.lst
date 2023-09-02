@@ -1,0 +1,16 @@
+/Users/roberto/Documents/FACULDADE/Sistemas_Web_Seguros/workspace-eclipse/sisrh/src/main/java/sisrh/dto/Empregado.java
+/Users/roberto/Documents/FACULDADE/Sistemas_Web_Seguros/workspace-eclipse/sisrh/src/main/java/sisrh/dto/Solicitacoes.java
+/Users/roberto/Documents/FACULDADE/Sistemas_Web_Seguros/workspace-eclipse/sisrh/src/main/java/sisrh/servlet/InicializarBancoServlet.java
+/Users/roberto/Documents/FACULDADE/Sistemas_Web_Seguros/workspace-eclipse/sisrh/src/main/java/sisrh/rest/EmpregadoRest.java
+/Users/roberto/Documents/FACULDADE/Sistemas_Web_Seguros/workspace-eclipse/sisrh/src/main/java/sisrh/rest/SistemaRest.java
+/Users/roberto/Documents/FACULDADE/Sistemas_Web_Seguros/workspace-eclipse/sisrh/src/main/java/sisrh/rest/SolicitacaoRest.java
+/Users/roberto/Documents/FACULDADE/Sistemas_Web_Seguros/workspace-eclipse/sisrh/src/main/java/sisrh/seguranca/Autenticador.java
+/Users/roberto/Documents/FACULDADE/Sistemas_Web_Seguros/workspace-eclipse/sisrh/src/main/java/sisrh/soap/ServicoSolicitacao.java
+/Users/roberto/Documents/FACULDADE/Sistemas_Web_Seguros/workspace-eclipse/sisrh/src/main/java/sisrh/dto/Usuario.java
+/Users/roberto/Documents/FACULDADE/Sistemas_Web_Seguros/workspace-eclipse/sisrh/src/main/java/sisrh/soap/ServicoEmpregado.java
+/Users/roberto/Documents/FACULDADE/Sistemas_Web_Seguros/workspace-eclipse/sisrh/src/main/java/sisrh/dto/Empregados.java
+/Users/roberto/Documents/FACULDADE/Sistemas_Web_Seguros/workspace-eclipse/sisrh/src/main/java/sisrh/exception/SISRHException.java
+/Users/roberto/Documents/FACULDADE/Sistemas_Web_Seguros/workspace-eclipse/sisrh/src/main/java/sisrh/rest/AppRest.java
+/Users/roberto/Documents/FACULDADE/Sistemas_Web_Seguros/workspace-eclipse/sisrh/src/main/java/sisrh/dto/Solicitacao.java
+/Users/roberto/Documents/FACULDADE/Sistemas_Web_Seguros/workspace-eclipse/sisrh/src/main/java/sisrh/banco/Banco.java
+/Users/roberto/Documents/FACULDADE/Sistemas_Web_Seguros/workspace-eclipse/sisrh/src/main/java/sisrh/soap/ServicoBasico.java

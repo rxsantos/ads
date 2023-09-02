@@ -1,0 +1,10 @@
+<web-app xmlns="xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xsi="w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+    version="3.1">
+    <servlet>
+       <servlet-name>JAXWSServlet</servlet-name>
+       <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
+       <load-on-startup>1</load-on-startup>
+    </servlet>
+</web-app>

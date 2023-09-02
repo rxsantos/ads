@@ -1,0 +1,22 @@
+image: java
+
+stages:
+- build
+- test
+- deploy
+
+build-job:
+  stage: build
+  script:
+    - java --version
+
+test-count:
+  stage: test
+  script: 
+    - java hello.java
+
+
+deploy:
+  stage: deploy
+  script:
+    - echo "Atividade Somativa DevOps semana 4 concluida :D"

@@ -35,8 +35,11 @@ public class ServicoSolicitacao {
 	}
 	
 	@WebMethod(action = "listarSolicitacoesAtivas")
-	public Solicitacoes listarSolicitacoesAtivas(@WebParam(name = "usuario") String usuario) throws Exception {	
+	//public Solicitacoes listarSolicitacoesAtivas(@WebParam(name = "usuario") String usuario) throws Exception {	
+	public Solicitacoes listarSolicitacoesAtivas(String usuario) throws Exception {
 			Autenticador.autenticarUsuarioSenha(context);
+			// Pegar usuario do header
+			usuario = Autenticador.getUsuario(context);
 			Solicitacoes solicitacoes = new Solicitacoes();
 			List<Solicitacao> lista = Banco.listarSolicitacoesPorUsuario(usuario); 
 			for(Solicitacao emp: lista) {

@@ -170,6 +170,8 @@ public class Banco {
 		Connection conn = Banco.getConexao();
 		String sql = "SELECT * FROM Solicitacao as s INNER JOIN Empregado as e ON s.matricula = e.matricula INNER JOIN Usuario as u ON e.matricula = u.matricula WHERE u.nome = ?";
 		PreparedStatement prepStmt = conn.prepareStatement(sql);
+		//Ajuste professor
+		prepStmt.setString(1,usuario);
 		ResultSet rs = prepStmt.executeQuery();
 		while (rs.next()) {
 			Integer id = rs.getInt("id");
